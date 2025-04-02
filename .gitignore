@@ -1,0 +1,54 @@
+# === Node ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# === Next.js build output ===
+.next/
+out/
+
+# === Turbopack cache ===
+node_modules/.cache/
+
+# === Vercel deployment output ===
+.vercel/
+
+# === Environment Variables ===
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# === Editor settings ===
+.vscode/
+.idea/
+*.swp
+
+# === OS metadata ===
+.DS_Store
+Thumbs.db
+
+# === Logs ===
+*.log
+logs/
+
+# === Testing ===
+coverage/
+jest.config.js
+jest.setup.js
+
+# === Typescript ===
+*.tsbuildinfo
+
+# === Build artifacts ===
+dist/
+build/
+
+# === Optional lockfiles (depending on package manager) ===
+# Uncomment the ones you are not using to ignore them
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
