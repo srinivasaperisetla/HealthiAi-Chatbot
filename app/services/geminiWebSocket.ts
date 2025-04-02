@@ -284,7 +284,7 @@ export class GeminiWebSocket {
     if (this.currentSource) {
       try {
         this.currentSource.stop();
-      } catch (_e) {
+      } catch {
         // Ignore errors if already stopped
       }
       this.currentSource = null;
